@@ -1,6 +1,6 @@
 require 'blazing/recipe'
 
-class Blazing::Recipe::PrecompileAssets < Blazing::Recipe
+class Blazing::Recipe::JammitCompile < Blazing::Recipe
 
   def run(target_options = {})
     super target_options

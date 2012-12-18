@@ -16,9 +16,9 @@ can be provided in the recipe call or with the target method. Target
 options have precedence over recipe options.
 
 ```ruby
-# Precompile the assets
+# Compile the assets
 #
-#   recipe :precompile_assets, [options]
+#   recipe :jammit_compile, [options]
 #
 # Options:
 #
@@ -26,7 +26,7 @@ options have precedence over recipe options.
 #
 # Example:
 
-recipe :precompile_assets, :rails_env => 'production'
+recipe :jammit_compile, :rails_env => 'production'
 ```
 
 Authors
