@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["danielfarrell76@gmail.com"]
   s.homepage    = "https://github.com/danielfarrell/blazing-jammit"
   s.summary     = %q{blazing asset compile recipe for jammit}
-  s.description = %q{A blazing recipe to precompile rails assets with jammit}
+  s.description = %q{blazing recipe to precompile rails assets with jammit}
 
   s.rubyforge_project = "blazing-jammit"
 
@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "blazing", '>= 0.2.9'
-  a.add_dependency "jammit"
+  s.add_dependency "jammit"
 end
